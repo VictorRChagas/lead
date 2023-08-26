@@ -1,0 +1,43 @@
+body {
+    background-color: #f2f1ed;
+}
+
+.headline-section {
+    background-color: #ea4c4c;
+    color: #FFFFFF;
+}
+
+.copywriting-section {
+    background-color: rgb(16, 16, 16);
+    color: #FFFFFF;
+}
+
+button.button {
+    font-size: 2rem;
+    background-color: rgb(46, 200, 0);
+    border-radius: 25px;
+    border-style: none;
+    padding: 8px 35px;
+}
+
+h5.subtitle {
+    font-size: 1rem;
+}
+
+h2.title {
+    font-size: 1.25rem;
+}
+
+.error {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #ea4c4c;
+}
+
+@media only screen and (max-width: 600px) {
+    button.button {
+        font-size: 1.5rem;
+    }
+}
+
